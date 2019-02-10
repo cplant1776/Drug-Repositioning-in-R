@@ -34,13 +34,13 @@ Steps:
 
 The reality played out quite similar to the steps outlined above. We gathered appropriate samples for a disease, ran it through the pipeline on a powerful server, then manually researched to verify the validity of the results.
 
-Validation came in a few forms. The strongest indicator of success was when we found that our drug candidate had already been discovered and was being used for treatment of the disease. Failing that, we delved deeper into PubMed in an attempt to find any similar biological mechanisms between our target disease and the drug's current treatment disease. To cut down on manual labor, I [created a script to query PubMed extracts searching for overlapping terms](https://github.com/cplant1776/drug_repositioning/post-processing/pubmed filtering). Given more time, a process utilizing natural language processing would have been ideal.
+Validation came in a few forms. The strongest indicator of success was when we found that our drug candidate had already been discovered and was being used for treatment of the disease. Failing that, we delved deeper into PubMed in an attempt to find any similar biological mechanisms between our target disease and the drug's current treatment disease. To cut down on manual labor, I [created a script to query PubMed extracts searching for overlapping terms]("https://github.com/cplant1776/Drug-Repositioning-in-R/post-processing/pubmed filtering"). Given more time, a process utilizing natural language processing would have been ideal.
 
 ## Usage
 
-1. [Generate a metadata file to pass to the script](https://github.com/cplant1776/drug_repositioning/pre-processing/metadata)
-2. [Pass the samples and metadata through the script](https://github.com/cplant1776/drug_repositioning/source/run/)
-3. [Run the results through post-processing](https://github.com/cplant1776/drug_repositioning/post-processing)
+1. [Generate a metadata file to pass to the script](https://github.com/cplant1776/Drug-Repositioning-in-R/pre-processing/metadata)
+2. [Pass the samples and metadata through the script](https://github.com/cplant1776/Drug-Repositioning-in-R/source/run/)
+3. [Run the results through post-processing](https://github.com/cplant1776/Drug-Repositioning-in-R/post-processing)
 4. Check the results for validity
 
 ## Results

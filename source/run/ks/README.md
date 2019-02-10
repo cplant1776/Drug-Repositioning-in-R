@@ -2,7 +2,7 @@
 
 **Overview**
 
-This is the workhorse script for the entire project. See [the main readme](https://github.com/cplant1776/drug_repositioning) for a an explanation of what the script accomplishes. Essentially, this attempts to create a [connectivity map](https://www.broadinstitute.org/connectivity-map-cmap) to find potential new uses for drugs. We feed it disease and control samples, attempt to find which expressions are up-regulated by the disease, and find drugs/treatments that are known to down-regulate those same expressions. We implemented two versions using different similarity scoring algorithms:
+This is the workhorse script for the entire project. See [the main readme](https://github.com/cplant1776/Drug-Repositioning-in-R) for a an explanation of what the script accomplishes. Essentially, this attempts to create a [connectivity map](https://www.broadinstitute.org/connectivity-map-cmap) to find potential new uses for drugs. We feed it disease and control samples, attempt to find which expressions are up-regulated by the disease, and find drugs/treatments that are known to down-regulate those same expressions. We implemented two versions using different similarity scoring algorithms:
 
 1. [Kolmogorov-Smirnov test (K-S Test)](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test#Two-sample_Kolmogorov%E2%80%93Smirnov_test)
 2. [eXtreme Sum (Xsum)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4278345/)
@@ -40,7 +40,7 @@ The two input csv files are just comma-seperated lists of the control and diseas
 
 **Output**
 
-The script outputs a R data structure (.rds) that is meant to be passed through post-processing before it is useful. [See the post-processing subdirectory for details](https://github.com/cplant1776/drug_repositioning/post-processing).
+The script outputs a R data structure (.rds) that is meant to be passed through post-processing before it is useful. [See the post-processing subdirectory for details](https://github.com/cplant1776/Drug-Repositioning-in-R/post-processing).
 
 **Required Packages**
 
